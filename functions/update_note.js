@@ -1,3 +1,5 @@
+// PUT /notes/:id - Using PUT to fully update an existing note by its unique ID.
+// This function will handle the update of a note in the Supabase database based on the provided ID in the request parameters.
 const { createClient } = require('@supabase/supabase-js');
 
 async function updateNote(req, res) {

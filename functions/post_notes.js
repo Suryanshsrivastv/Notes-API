@@ -1,3 +1,6 @@
+// POST /notes - Using POST because we are creating a new note based on request body input.
+
+
 const { createClient } = require('@supabase/supabase-js');
 
 async function postNotes(req, res) {

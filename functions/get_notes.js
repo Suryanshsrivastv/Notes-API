@@ -1,3 +1,6 @@
+// POST /notes - Using POST because we are creating a new note based on request body input.
+// This function will handle the creation of a new note in the Supabase database.
+// It will validate the request method and the presence of required fields (title and content).
 const { createClient } = require('@supabase/supabase-js');
 
 async function getNotes(req, res) {

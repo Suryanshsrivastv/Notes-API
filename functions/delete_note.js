@@ -1,3 +1,6 @@
+// DELETE /notes/:id - Using DELETE to permanently remove a specific note by its unique ID.
+// This function will handle the deletion of a note from the Supabase database based on the provided ID in the request parameters.
+// It will validate the request method and the presence of the ID parameter.
 const { createClient } = require('@supabase/supabase-js');
 
 async function deleteNote(req, res) {
