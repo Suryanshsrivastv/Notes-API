@@ -69,7 +69,7 @@ create table if not exists public.notes (
 - **Developer-Friendly Design**: Simplifies handling and reduces the need for manual configurations or additional operations.
 
 
-## One-Line "Why?" Comments for Each Endpoint
+## Why Each Endpoint
 
 - **post_notes.js**  
   `// POST /notes - Using POST because we are creating a new note based on request body input.`
@@ -126,6 +126,7 @@ curl -X GET https://localhost:3000/api/notes
 
 # 3. Put Request
 ```curl
+replace note-id
 curl -X PUT https://localhost:3000/api/notes/<note-id> \
   -H "Content-Type: application/json" \
   -d '{"title": "Updated title", "content": "Updated content"}'
