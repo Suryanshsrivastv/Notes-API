@@ -4,7 +4,7 @@ A minimal RESTful Notes service built using **Express.js** and **Supabase**.
 
 ---
 
-## 📖 Features
+## Features
 
 - Create new notes
 - Fetch all notes
@@ -15,7 +15,7 @@ A minimal RESTful Notes service built using **Express.js** and **Supabase**.
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 1. Clone the repository:
 
