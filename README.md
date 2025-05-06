@@ -21,7 +21,7 @@ A minimal RESTful Notes service built using **Express.js** and **Supabase**.
 
     ```bash
     git clone https://github.com/Suryanshsrivastv/Notes-API.git
-    cd <your-project-folder>
+    cd <your-project-folder> || Notes-API
     ```
 
 2. Install dependencies:
